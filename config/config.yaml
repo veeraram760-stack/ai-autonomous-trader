@@ -1,0 +1,71 @@
+# AI Autonomous Trader Configuration
+
+trader:
+  initial_capital: 10.0
+  name: "MainAI_v1"
+  risk_level: "medium"
+  
+capital_allocation:
+  crypto_trading: 0.30
+  stock_trading: 0.10
+  dropshipping: 0.15
+  content_creation: 0.12
+  digital_products: 0.12
+  affiliate_marketing: 0.08
+  freelancing: 0.08
+  gig_tasks: 0.05
+
+daily_roi:
+  crypto_trading: 0.015
+  stock_trading: 0.003
+  dropshipping: 0.020
+  content_creation: 0.001
+  digital_products: 0.010
+  affiliate_marketing: 0.005
+  freelancing: 0.015
+  gig_tasks: 0.010
+
+cloning:
+  enabled: true
+  minimum_capital_for_clone: 2.0
+  clone_allocation: 1.50
+  commission_rate: 0.15
+  max_clones_per_level: 4
+
+risk_management:
+  max_daily_loss: 0.05
+  stop_loss_percentage: 0.05
+  take_profit_percentage: 0.10
+  position_size_limit: 0.02
+
+platforms:
+  trading:
+    - binance
+    - alpaca
+  ecommerce:
+    - shopify
+    - amazon
+    - ebay
+  content:
+    - youtube
+    - tiktok
+    - medium
+    - blog
+  affiliate:
+    - amazon_associates
+    - clickbank
+    - shareasale
+  freelance:
+    - fiverr
+    - upwork
+    - freelancer
+  gig:
+    - mechanical_turk
+    - clickworker
+    - user_testing
+
+simulation:
+  enabled: true
+  days: 30
+  simulation_speed: 1.0
+  log_level: "INFO"
